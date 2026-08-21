@@ -14,7 +14,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Setup Android NDK
-        uses: n医学/setup-ndk@v1 # Стандартный экшен под NDK
+        uses:  /setup-ndk@v1 # Стандартный экшен под NDK
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
